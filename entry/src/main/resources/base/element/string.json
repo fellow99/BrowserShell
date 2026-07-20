@@ -31,6 +31,14 @@
     {
       "name": "fab_label",
       "value": "🌐"
+    },
+    {
+      "name": "load_error_hint",
+      "value": "页面加载失败"
+    },
+    {
+      "name": "retry_button",
+      "value": "重试"
     }
   ]
 }

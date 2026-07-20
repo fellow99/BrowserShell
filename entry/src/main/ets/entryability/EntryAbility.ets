@@ -2,7 +2,7 @@ import { AbilityConstant, ConfigurationConstant, UIAbility, Want } from '@kit.Ab
 import { hilog } from '@kit.PerformanceAnalysisKit';
 import { window } from '@kit.ArkUI';
 
-const DOMAIN = 0x0000;
+const DOMAIN = 0x0A01;
 
 export default class EntryAbility extends UIAbility {
   onCreate(want: Want, launchParam: AbilityConstant.LaunchParam): void {
@@ -23,14 +23,12 @@ export default class EntryAbility extends UIAbility {
     hilog.info(DOMAIN, 'testTag', '%{public}s', 'Ability onWindowStageCreate');
 
     // Set full screen mode: hide system status bar and navigation bar
-    try {
-      windowStage.getMainWindow().then((windowClass: window.Window) => {
-        windowClass.setWindowLayoutFullScreen(true);
-        hilog.info(DOMAIN, 'testTag', 'Full screen mode enabled');
-      });
-    } catch (err) {
+    windowStage.getMainWindow().then((windowClass: window.Window) => {
+      windowClass.setWindowLayoutFullScreen(true);
+      hilog.info(DOMAIN, 'testTag', 'Full screen mode enabled');
+    }).catch((err: Error) => {
       hilog.error(DOMAIN, 'testTag', 'Failed to set fullscreen. Cause: %{public}s', JSON.stringify(err));
-    }
+    });
 
     windowStage.loadContent('pages/Index', (err) => {
       if (err.code) {
