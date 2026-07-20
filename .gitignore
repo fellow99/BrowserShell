@@ -10,8 +10,7 @@
 /.clang-tidy
 **/.test
 /.appanalyzer
-logs/
-crash_logs/
+# crash_logs/
 *.log
 # 签名材料（含私钥），绝不提交
 /signing/
