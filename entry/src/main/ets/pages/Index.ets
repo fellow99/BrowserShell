@@ -1,4 +1,4 @@
-import { webview } from '@kit.ArkUI';
+import webview from '@ohos.web.webview';
 import { preferences } from '@kit.ArkData';
 import { hilog } from '@kit.PerformanceAnalysisKit';
 import { common } from '@kit.AbilityKit';
