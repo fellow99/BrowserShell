@@ -1,0 +1,32 @@
+/node_modules
+/oh_modules
+/local.properties
+/.idea
+**/build
+/.hvigor
+.cxx
+/.clangd
+/.clang-format
+/.clang-tidy
+**/.test
+/.appanalyzer
+logs/
+crash_logs/
+*.log
+# 签名材料（含私钥），绝不提交
+/signing/
+# 调试截图
+/*.jpeg
+# 测试产出（hdc 截图 / UI树 / 日志）
+/test-output/
+/*.png
+/layout*.json
+
+# Agent/tool directories
+.sisyphus
+.specify
+.opencode
+.claude
+.omo
+.codegraph
+.playwright-mcp
