@@ -2,15 +2,35 @@
   "string": [
     {
       "name": "module_desc",
-      "value": "module description"
+      "value": "BrowserShell 浏览器壳模块"
     },
     {
       "name": "EntryAbility_desc",
-      "value": "description"
+      "value": "BrowserShell 主入口"
     },
     {
       "name": "EntryAbility_label",
-      "value": "label"
+      "value": "BrowserShell"
+    },
+    {
+      "name": "empty_page_hint",
+      "value": "输入网址开始浏览"
+    },
+    {
+      "name": "url_placeholder",
+      "value": "请输入网址"
+    },
+    {
+      "name": "go_button",
+      "value": "前往"
+    },
+    {
+      "name": "cancel_button",
+      "value": "取消"
+    },
+    {
+      "name": "fab_label",
+      "value": "🌐"
     }
   ]
 }
