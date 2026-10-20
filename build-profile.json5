@@ -7,11 +7,11 @@
         "material": {
           "certpath": "C:\\Users\\Administrator\\.ohos\\config\\default_BrowserShell_V-8HC9RBiXxYWbNaKOIU0Gkz5bFwurqUqDHskYYcuLs=.cer",
           "keyAlias": "debugKey",
-          "keyPassword": "0000001A8D00368650F867D53B3F180139533513C3172150F87218014674F9C9D52880D883FA9A8DC243",
+          "keyPassword": "0000001BF690E5DCC13C79F47BBE526F517A7E688D928701B147F6B16553C5DEAF17EFB3CB870C1B85E963",
           "profile": "C:\\Users\\Administrator\\.ohos\\config\\default_BrowserShell_V-8HC9RBiXxYWbNaKOIU0Gkz5bFwurqUqDHskYYcuLs=.p7b",
           "signAlg": "SHA256withECDSA",
           "storeFile": "C:\\Users\\Administrator\\.ohos\\config\\default_BrowserShell_V-8HC9RBiXxYWbNaKOIU0Gkz5bFwurqUqDHskYYcuLs=.p12",
-          "storePassword": "0000001A78E24633BBF2E59BB11870C34FB794DE62D5C8CA8F5B08DEDB658A7E8262BE5701E8E5B4D348"
+          "storePassword": "0000001BF29FF946782A88A57CD92160D53EBC97B7F033683A31FE377A91B2EA64851645FEB77B63A42559"
         }
       }
     ],
@@ -19,10 +19,10 @@
       {
         "name": "default",
         "signingConfig": "default",
-        "compileSdkVersion": 23,
-        "compatibleSdkVersion": 18,
-        "targetSdkVersion": 23,
-        "runtimeOS": "OpenHarmony",
+        "compatibleSdkVersion": "6.0.0(20)",
+        "compatibleSdkVersionStage": "release",
+        "targetSdkVersion": "6.1.1(24)",
+        "runtimeOS": "HarmonyOS",
         "buildOption": {
           "strictMode": {
             "caseSensitiveCheck": true,

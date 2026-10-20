@@ -6,8 +6,8 @@
 
 | 类别 | 技术 | 版本 | 用途 |
 |------|------|------|------|
-| 操作系统 | HarmonyOS | 6.1.0 (API 23) | 目标运行平台 |
-| 兼容版本 | HarmonyOS | 5.1.0 (API 18) | 最低兼容版本 |
+| 操作系统 | HarmonyOS | 6.1.1 (API 24) | 目标运行平台 |
+| 兼容版本 | HarmonyOS | 6.0.0 (API 20) | 最低兼容版本 |
 | 开发语言 | ArkTS | — | 应用开发语言 (TypeScript 超集) |
 | UI 框架 | ArkUI | — | 声明式 UI 组件框架 |
 | 应用模型 | Stage Model | — | 现代应用生命周期模型 |
@@ -41,9 +41,9 @@
 
 | 配置项 | 值 | 说明 |
 |--------|-----|------|
-| bundleName | com.jkh.browsershell | 应用包名 |
+| bundleName | org.fellow99.BrowserShell | 应用包名 |
 | versionCode | 1000000 | 版本号 |
 | versionName | 1.0.0 | 版本名 |
 | targetSdkVersion | 6.1.0(23) | 目标 SDK |
-| compatibleSdkVersion | 5.1.0(18) | 最低兼容 SDK |
+| compatibleSdkVersion | 6.0.0(20) | 最低兼容 SDK |
 | deviceTypes | phone, tablet | 支持设备类型 |

@@ -1,11 +1,11 @@
 {
   "app": {
-    "bundleName": "com.jkh.browsershell",
+    "bundleName": "org.fellow99.BrowserShell",
     "vendor": "example",
     "versionCode": 1000000,
     "versionName": "1.0.0",
     "buildVersion": "1",
-    "icon": "$media:layered_image",
+    "icon": "$media:startIcon",
     "label": "$string:app_name"
   }
 }
