@@ -18,19 +18,23 @@
     },
     {
       "name": "url_placeholder",
-      "value": "请输入网址"
+      "value": "输入网址，如 www.baidu.com"
     },
     {
       "name": "go_button",
       "value": "前往"
     },
     {
-      "name": "cancel_button",
-      "value": "取消"
+      "name": "close_button",
+      "value": "✕"
     },
     {
       "name": "fab_label",
-      "value": "🌐"
+      "value": "URL"
+    },
+    {
+      "name": "invalid_url_hint",
+      "value": "请输入有效网址，例如 www.baidu.com"
     },
     {
       "name": "load_error_hint",

@@ -3,6 +3,50 @@
     {
       "name": "start_window_background",
       "value": "#FFFFFF"
+    },
+    {
+      "name": "page_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "brand_gradient_start",
+      "value": "#FF4A7BF7"
+    },
+    {
+      "name": "brand_gradient_end",
+      "value": "#FF2A55D6"
+    },
+    {
+      "name": "fab_shadow",
+      "value": "#400A3FA8"
+    },
+    {
+      "name": "panel_background",
+      "value": "#F7FFFFFF"
+    },
+    {
+      "name": "panel_border",
+      "value": "#18000000"
+    },
+    {
+      "name": "panel_shadow",
+      "value": "#26000000"
+    },
+    {
+      "name": "text_primary",
+      "value": "#FF1A1D22"
+    },
+    {
+      "name": "text_secondary",
+      "value": "#8A9099"
+    },
+    {
+      "name": "text_placeholder",
+      "value": "#B3B9C0"
+    },
+    {
+      "name": "text_error",
+      "value": "#FFE84026"
     }
   ]
 }
