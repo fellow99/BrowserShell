@@ -41,7 +41,7 @@
 
 | 配置项 | 值 | 说明 |
 |--------|-----|------|
-| bundleName | org.fellow99.BrowserShell | 应用包名 |
+| bundleName | org.fellow99.test.BrowserShell | 应用包名 |
 | versionCode | 1000000 | 版本号 |
 | versionName | 1.0.0 | 版本名 |
 | targetSdkVersion | 6.1.0(23) | 目标 SDK |

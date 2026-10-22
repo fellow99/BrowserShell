@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "org.fellow99.BrowserShell",
+    "bundleName": "org.fellow99.test.BrowserShell",
     "vendor": "example",
     "versionCode": 1000000,
     "versionName": "1.0.0",

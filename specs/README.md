@@ -8,7 +8,7 @@ BrowserShell 是一个基于 HarmonyOS / OpenHarmony 的轻量级浏览器壳应
 
 - **技术栈**: HarmonyOS 6.1.0 + ArkTS + ArkUI + Stage Model
 - **目标设备**: 手机 (phone)、平板 (tablet)
-- **应用包名**: org.fellow99.BrowserShell
+- **应用包名**: org.fellow99.test.BrowserShell
 
 ## 文档索引
 

@@ -137,7 +137,7 @@
 
 ## 真机执行记录（2026-10-20，HAD-W32 / HarmonyOS 7.0.0.111）
 
-部署信息：`org.fellow99.BrowserShell`，targetSdkVersion 6.1.1(24)，runtimeOS HarmonyOS，
+部署信息：`org.fellow99.test.BrowserShell`，targetSdkVersion 6.1.1(24)，runtimeOS HarmonyOS，
 `hdc install -r entry-default-signed.hap` → `install bundle successfully`。
 证据截图位于 `test-output/run2/`（该目录已被 .gitignore 忽略）。
 
